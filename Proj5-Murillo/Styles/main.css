@@ -1,0 +1,115 @@
+﻿
+body {
+	background-image: url("../Images/smashwallpaper.png");
+	/*background-color: #E51F1F;*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+	font-family: fot-rodin-pron, sans-serif;
+	font-style: normal;
+}
+
+#ssbRegForm {
+	background-color: white;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 16px;
+	padding: 1em;
+	width: 50%;
+	text-align: center;
+}
+
+#ssbConfirmation {
+	background-color: white;
+	margin-left: 100px;
+	margin-top: 100px;
+	border-radius: 16px;
+	padding: 1em;
+	width: 30%;
+	text-align: center;
+}
+
+#ssbViews {
+	background-color: white;
+	margin-left: 100px;
+	margin: auto;
+	border-radius: 16px;
+	padding: 1em;
+	width: 80%;
+	text-align: center;
+}
+
+#mainHeader{
+	padding-bottom:20px;
+	font-weight: 600;
+}
+
+#viewsLinkto {
+	background-color: white;
+}
+
+table.ssbReg td{
+	font-weight: 600;
+}
+
+table.ssbConfirm td{
+	font-weight: 600;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+
+td {
+	padding: 0;
+	vertical-align: top;
+	text-align: left;
+}
+
+tr {
+	margin-top: 10px;
+}
+
+/*media query for mobile responsive layout, works best on google browers */
+@media only screen and (max-width: 768px) {
+
+	#ssbRegForm {
+		background-color: white;
+		margin: auto;
+		margin-top: 20px;
+		border-radius: 16px;
+		padding: 1em;
+		padding-bottom: 400px;
+		width: 80%;
+		text-align: center;
+	}
+	
+	#tdSmashImage {
+		display: table-cell;
+		margin-bottom: 0px;
+		position: absolute;
+		top: 550px;
+		left: 80px;
+	}
+
+	#ssbConfirmation {
+		background-color: white;
+		margin-left: 100px;
+		margin-top: 100px;
+		border-radius: 16px;
+		padding: 1em;
+		width: 60%;
+		text-align: center;
+	}
+
+	#ssbViews {
+		background-color: white;
+		margin-left: 100px;
+		margin: auto;
+		border-radius: 16px;
+		padding: 1em;
+		width: 90%;
+		text-align: center;
+	}
+}
